@@ -22,18 +22,21 @@ else {
         if (i1 < (size1 - 1)) Console.Write(", ");
     }
     Console.Write("]");
+
+
+    string [] array2 = new string [size2];
+    int i2 = 0; // Индекс второго массива
+    Console.WriteLine("\nВаш новый массив:");
+    Console.Write("[");
+    for (int i1 = 0; i1 < size1; i1++) {
+        if (array1[i1].Length < 4) {
+            array2[i2] = array1[i1];
+            Console.Write($"\"{array2[i2]}\"");
+            if (i2 < (size2 - 1)) Console.Write(", ");
+            i2++;
+        }
+    }
+    Console.Write("]");
 }
 
-string [] array2 = new string [size2];
-int i2 = 0; // Индекс второго массива
-Console.WriteLine("\nВаш новый массив:");
-Console.Write("[");
-for (int i1 = 0; i1 < size1; i1++) {
-    if (array1[i1].Length < 4) {
-        array2[i2] = array1[i1];
-        Console.Write($"\"{array2[i2]}\"");
-        if (i1 < (size1 - 1)) Console.Write(", ");
-        i2++;
-    }
-}
- Console.Write("]");
+Console.ReadLine();
