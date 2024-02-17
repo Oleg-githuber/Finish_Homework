@@ -1,0 +1,14 @@
+D:\GB\DZ\Finish_Basic\Finish_Homework\program\obj\Debug\net7.0\program.GeneratedMSBuildEditorConfig.editorconfig
+D:\GB\DZ\Finish_Basic\Finish_Homework\program\obj\Debug\net7.0\program.AssemblyInfoInputs.cache
+D:\GB\DZ\Finish_Basic\Finish_Homework\program\obj\Debug\net7.0\program.AssemblyInfo.cs
+D:\GB\DZ\Finish_Basic\Finish_Homework\program\obj\Debug\net7.0\program.csproj.CoreCompileInputs.cache
+D:\GB\DZ\Finish_Basic\Finish_Homework\program\bin\Debug\net7.0\program.exe
+D:\GB\DZ\Finish_Basic\Finish_Homework\program\bin\Debug\net7.0\program.deps.json
+D:\GB\DZ\Finish_Basic\Finish_Homework\program\bin\Debug\net7.0\program.runtimeconfig.json
+D:\GB\DZ\Finish_Basic\Finish_Homework\program\bin\Debug\net7.0\program.dll
+D:\GB\DZ\Finish_Basic\Finish_Homework\program\bin\Debug\net7.0\program.pdb
+D:\GB\DZ\Finish_Basic\Finish_Homework\program\obj\Debug\net7.0\program.dll
+D:\GB\DZ\Finish_Basic\Finish_Homework\program\obj\Debug\net7.0\refint\program.dll
+D:\GB\DZ\Finish_Basic\Finish_Homework\program\obj\Debug\net7.0\program.pdb
+D:\GB\DZ\Finish_Basic\Finish_Homework\program\obj\Debug\net7.0\program.genruntimeconfig.cache
+D:\GB\DZ\Finish_Basic\Finish_Homework\program\obj\Debug\net7.0\ref\program.dll
