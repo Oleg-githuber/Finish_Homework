@@ -21,26 +21,37 @@ string [] NewArray(string [] array1, string [] array2) {
     return array2;
 }
 
+// Фуункция заполнения массива с клавиатуры
+string [] ReadArray(string [] array1) {
+    for (int i = 0; i < array1.Length; i++) {
+        Console.WriteLine($"Введите строку №{i}");
+        array1[i] = Console.ReadLine();
+    }
+    return array1;
+}
 
+// Функция получения размера второго массива
+int GetSizeArray(string [] array1) {
+    int size2 = 0;
+    for (int i = 0; i < array1.Length; i++) {
+        if (array1[i].Length < 4) size2++;
+    }
+    return size2;
+}
 
+// Начало основной программы
 Console.WriteLine("Введите количество строк в массиве: ");
 int size1 = Int32.Parse(Console.ReadLine());    //Количество строк в первом массиве
 string [] array1 = new string [size1];  // Создание пустого массива
-int size2 = 0;  // Размер второго массива
-//string [] array2 = new string [size1];
 
-// Цикл заполнения массива с клавиатуры
-for (int i = 0; i < size1; i++) {
-    Console.WriteLine($"Введите строку №{i}");
-    array1[i] = Console.ReadLine();
-    if (array1[i].Length < 4) size2++;
-}
+
+int size2 = GetSizeArray(ReadArray(array1));    // Размер второго массива
 
 if (size2 == 0) Console.WriteLine("Массив не содержит коротких строк");
 else {
-    WriteArray(array1);
-    string [] array2 = new string [size2];
-    WriteArray(NewArray(array1, array2));
+    WriteArray(array1); // Вывести в консоль первый массив
+    string [] array2 = new string [size2];  // Создать второй массив
+    WriteArray(NewArray(array1, array2));   // Вывести в консоль второй массив
 }
-
+Console.WriteLine("\nНажмите Enter");
 Console.ReadLine(); // Ожидание нажатия клавиши
