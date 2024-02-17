@@ -12,17 +12,12 @@ void WriteArray(string [] array1) {
 // Функция формирования второго массива и вывода его в консоль
 string [] NewArray(string [] array1, string [] array2) {
     int i2 = 0; // Индекс второго массива
-    Console.WriteLine("\nВаш новый массив:");
-    Console.Write("[");
     for (int i1 = 0; i1 < array1.Length; i1++) {
         if (array1[i1].Length < 4) {
             array2[i2] = array1[i1];
-            Console.Write($"\"{array2[i2]}\"");
-            if (i2 < (array2.Length - 1)) Console.Write(", ");
             i2++;
         }
     }
-    Console.Write("]");
     return array2;
 }
 
@@ -45,7 +40,7 @@ if (size2 == 0) Console.WriteLine("Массив не содержит корот
 else {
     WriteArray(array1);
     string [] array2 = new string [size2];
-    NewArray(array1, array2);
+    WriteArray(NewArray(array1, array2));
 }
 
-Console.ReadLine();
+Console.ReadLine(); // Ожидание нажатия клавиши
