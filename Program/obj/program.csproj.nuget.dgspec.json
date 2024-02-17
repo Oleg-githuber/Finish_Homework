@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\GB\\DZ\\Finish_Basic\\Finish_Homework\\program\\program.csproj": {}
+    "D:\\GB\\DZ\\Finish_Basic\\Finish_Homework\\Program\\program.csproj": {}
   },
   "projects": {
-    "D:\\GB\\DZ\\Finish_Basic\\Finish_Homework\\program\\program.csproj": {
+    "D:\\GB\\DZ\\Finish_Basic\\Finish_Homework\\Program\\program.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GB\\DZ\\Finish_Basic\\Finish_Homework\\program\\program.csproj",
+        "projectUniqueName": "D:\\GB\\DZ\\Finish_Basic\\Finish_Homework\\Program\\program.csproj",
         "projectName": "program",
-        "projectPath": "D:\\GB\\DZ\\Finish_Basic\\Finish_Homework\\program\\program.csproj",
+        "projectPath": "D:\\GB\\DZ\\Finish_Basic\\Finish_Homework\\Program\\program.csproj",
         "packagesPath": "C:\\Users\\nechi\\.nuget\\packages\\",
-        "outputPath": "D:\\GB\\DZ\\Finish_Basic\\Finish_Homework\\program\\obj\\",
+        "outputPath": "D:\\GB\\DZ\\Finish_Basic\\Finish_Homework\\Program\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
